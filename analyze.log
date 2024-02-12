@@ -1,0 +1,57 @@
+#!/bin/bash
+
+# Step 1: Define Variables
+LOG_FILE="/var/log/auth.log"  # Path to the log file
+ANOMALIES_FILE="anomalies.txt"  # Output file for identified anomalies
+BLACKLIST_FILE="blacklist.txt"  # File to store blacklisted IPs
+THRESHOLD=2  # Threshold value for blocking an IP
+
+# Step 2: Check Log File Existence
+if [ ! -f "$LOG_FILE" ]; then
+    echo "Error: Log file not found."
+    exit 1
+fi
+
+# Step 3: Function to block IP and add to blacklist
+block_ip() {
+    local ip="$1"
+    # Check if the IP is already blacklisted
+    if grep -Fxq "$ip" "$BLACKLIST_FILE"; then
+        echo "IP $ip is already blacklisted."
+    else
+        echo "Blocking IP: $ip"
+        # Remove any previous occurrence of the IP to avoid duplication
+        sed -i "/^$ip\$/d" "$BLACKLIST_FILE"
+        echo "$ip" >> "$BLACKLIST_FILE"
+    fi
+}
+
+# Step 4: Function to detect anomalies and write to anomalies file
+detect_anomalies() {
+    local input_file="$1"
+    # Use grep to extract anomalies and write to anomalies file
+    grep -E "Invalid user|error|failed|refused" "$input_file" > "$ANOMALIES_FILE"
+}
+
+# Step 5: Analyze Logs Function
+analyze_logs() {
+    local input_file="$1"
+    # Use grep to extract invalid IPs and count occurrences
+    invalid_ips=$(grep -oE "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b" "$input_file" | sort | uniq -c | awk '$1 >= '"$THRESHOLD"' {print $2}')
+    # Iterate through invalid IPs
+    while IFS= read -r ip; do
+        block_ip "$ip"
+    done <<< "$invalid_ips"
+}
+
+# Step 6: Output Blacklisted IPs
+echo "Blacklisted IPs:"
+cat "$BLACKLIST_FILE"
+
+# Step 7: Output Anomalies
+echo "Checking for anomalies..."
+detect_anomalies "$LOG_FILE"
+echo "Anomalies detected and saved to $ANOMALIES_FILE."
+
+# Step 8: Analyze Logs
+analyze_logs "$LOG_FILE"

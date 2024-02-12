@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#Install geoiplookup
+#apt install geoip-bin
+#Usage: geopiplookup <ip-address>
+
+LOGFILE=/var/log/auth.log
+LINE=0
+
+while true
+do
+        for i in $(cat $LOGFILE | awk "NR>$LINE"  | grep Invalid | awk '{print $(NF-2)}' | uniq)
+        do
+                LINE=$(cat $LOGFILE | wc -l)
+                LOCATION=$(geoiplookup $i | awk '{print $5  " "  $6}')
+                echo "[*] The Attacker's Country: $LOCATION [IP ADDRESS: $i]"
+        done
+        sleep 2
+done

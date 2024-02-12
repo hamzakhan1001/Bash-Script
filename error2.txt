@@ -1,0 +1,76 @@
+#!/bin/bash
+
+# Step 1: Define Variables
+LOG_FILE="/var/log/auth.log"  # Path to the log file
+ANOMALIES_FILE="anomalies.txt"  # Output file for identified anomalies
+BLACKLIST_FILE="blacklist.txt"  # File to store blacklisted IPs
+WHITELIST_FILE="whitelist.txt"  # File to store whitelisted IPs
+THRESHOLD=2  # Threshold value for blocking an IP
+
+# Step 2: Check Log File Existence
+if [ ! -f "$LOG_FILE" ]; then
+    echo "Error: Log file not found."
+    exit 1
+fi
+
+# Step 3: Function to block/unblock IP and move to whitelist
+block_ip() {
+    local ip="$1"
+    local action="$2"
+    
+    # Check if the IP is already blocked
+    if iptables -L INPUT -n | grep -q "$ip"; then
+        if [ "$action" == "unblock" ]; then
+            echo "Unblocking IP: $ip"
+            iptables -D INPUT -s "$ip" -j DROP
+            echo "$ip" >> "$WHITELIST_FILE"
+            sed -i "/$ip/d" "$BLACKLIST_FILE"
+        else
+            echo "IP $ip is already blocked."
+        fi
+    else
+        if [ "$action" == "block" ]; then
+            echo "Blocking IP: $ip"
+            iptables -A INPUT -s "$ip" -j DROP
+            echo "$ip" >> "$BLACKLIST_FILE"
+        else
+            echo "IP $ip is not blocked."
+        fi
+    fi
+}
+
+# Step 4: Function to detect anomalies and write to anomalies file
+detect_anomalies() {
+    local input_file="$1"
+    # Use grep to extract anomalies and write to anomalies file
+    grep -E "Invalid user|error|failed|refused" "$input_file" > "$ANOMALIES_FILE"
+}
+
+# Step 5: Analyze Logs Function
+analyze_logs() {
+    local input_file="$1"
+    # Use grep to extract invalid IPs and count occurrences
+    invalid_ips=$(grep -oE "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b" "$input_file" | sort | uniq -c | awk '$1 >= '"$THRESHOLD"' {print $2}')
+    # Iterate through invalid IPs
+    while IFS= read -r ip; do
+        block_ip "$ip" "block"
+    done <<< "$invalid_ips"
+}
+
+# Step 6: Output Blacklisted IPs
+echo "Blacklisted IPs:"
+cat "$BLACKLIST_FILE"
+
+# Step 7: Output Anomalies
+echo "Checking for anomalies..."
+detect_anomalies "$LOG_FILE"
+echo "Anomalies detected and saved to $ANOMALIES_FILE."
+
+# Step 8: Analyze Logs
+analyze_logs "$LOG_FILE"
+
+# Step 9: Prompt user to unblock an IP
+read -p "Enter the IP address you want to unblock: " ip_to_unblock
+block_ip "$ip_to_unblock" "unblock"
+echo "IP $ip_to_unblock has been unblocked and added to the whitelist."
+
