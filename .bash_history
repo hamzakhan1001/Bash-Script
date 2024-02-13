@@ -491,3 +491,81 @@ sudo iptables -L -n --line-numbers | grep  91.108.240.199
 sudo iptables -L -n --line-numbers | grep 212.70.149.150
 sudo iptables -L -n --line-numbers | grep 154.82.110.34
 logout
+ls
+clear
+cd /var/log
+cat auth.log 
+cd /home
+azureuser/
+ls
+azureuser/
+cd azureuser/
+clear
+ls
+clear
+ls
+cat error.txt 
+sudo ./error.txt 
+ls
+cat anomalies.txt 
+grep invalid anomalies.txt 
+clear
+ls
+clear
+ls
+cat blacklist.txt 
+sudo iptables -L -n --line-numbers | grep 154.82.110.34
+sudo iptables -L -n --line-numbers | 212.70.149.150
+sudo iptables -L -n --line-numbers | clear
+ls
+cat blacklist.txt 
+sudo iptables -L -n --line-numbers | grep 154.82.110.34
+sudo iptables -L -n --line-numbers | grep 212.70.149.150
+touch whitelist.txt 
+chmod 777 whitelist.txt 
+
+cat whitelist.txt 
+touch error2.txt
+chmod u+x error2.txt
+vim error
+vim error2.txt 
+./error2.txt 
+sudo ./error2.txt 
+vim error2.txt 
+sudo ./error2.txt 
+ls
+cat whitelist.txt 
+sudo ./error2.txt 
+cat whitelist.txt 
+sudo iptables -L -n --line-numbers | grep 212.70.149.150
+cat blacklist.txt 
+cat error2.txt 
+clear
+ls
+git init
+clear
+ls
+sudo ./error2.txt 
+cat whitelist.txt 
+sudo iptables -L -n --line-numbers | grep 141.98.11.169
+clear
+git init
+git set url https://github.com/hamzakhan1001/Bash-Script.git
+git remote set-url origin https://github.com/hamzakhan1001/Bash-Script.git
+git clone https://github.com/hamzakhan1001/Bash-Script.git
+git init
+git status
+git add .
+git rm --cached Bash-Script
+clear
+ls
+git remote add origin https://github.com/hamzakhan1001/Bash-Script.git
+git status
+gir branch
+git branch
+git push origin main
+git commit -m "files"
+git push origin main
+git checkout -b main
+git push origin main
+clear

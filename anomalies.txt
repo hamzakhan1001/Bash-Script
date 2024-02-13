@@ -261,3 +261,363 @@ Feb 12 14:00:40 Guest sudo: azureuser : TTY=pts/0 ; PWD=/home/azureuser ; USER=r
 Feb 12 14:04:36 Guest sudo: azureuser : TTY=pts/0 ; PWD=/home/azureuser ; USER=root ; COMMAND=./error2.txt
 Feb 12 14:05:21 Guest sudo: azureuser : TTY=pts/0 ; PWD=/home/azureuser ; USER=root ; COMMAND=./error2.txt
 Feb 12 14:14:05 Guest sudo: azureuser : TTY=pts/0 ; PWD=/home/azureuser ; USER=root ; COMMAND=./error2.txt
+Feb 12 14:25:06 Guest sshd[59035]: error: maximum authentication attempts exceeded for root from 115.23.75.168 port 60048 ssh2 [preauth]
+Feb 12 14:25:13 Guest sshd[59037]: error: maximum authentication attempts exceeded for root from 115.23.75.168 port 60588 ssh2 [preauth]
+Feb 12 14:25:23 Guest sshd[59041]: Invalid user admin from 115.23.75.168 port 33480
+Feb 12 14:25:24 Guest sshd[59041]: error: maximum authentication attempts exceeded for invalid user admin from 115.23.75.168 port 33480 ssh2 [preauth]
+Feb 12 14:25:28 Guest sshd[59043]: Invalid user admin from 115.23.75.168 port 34100
+Feb 12 14:25:30 Guest sshd[59043]: error: maximum authentication attempts exceeded for invalid user admin from 115.23.75.168 port 34100 ssh2 [preauth]
+Feb 12 14:25:34 Guest sshd[59045]: Invalid user admin from 115.23.75.168 port 34700
+Feb 12 14:25:39 Guest sshd[59047]: Invalid user oracle from 115.23.75.168 port 35198
+Feb 12 14:25:40 Guest sshd[59047]: error: maximum authentication attempts exceeded for invalid user oracle from 115.23.75.168 port 35198 ssh2 [preauth]
+Feb 12 14:25:44 Guest sshd[59049]: Invalid user oracle from 115.23.75.168 port 35744
+Feb 12 14:25:45 Guest sshd[59049]: error: maximum authentication attempts exceeded for invalid user oracle from 115.23.75.168 port 35744 ssh2 [preauth]
+Feb 12 14:25:50 Guest sshd[59051]: Invalid user oracle from 115.23.75.168 port 36232
+Feb 12 14:25:55 Guest sshd[59053]: Invalid user usuario from 115.23.75.168 port 36810
+Feb 12 14:25:57 Guest sshd[59053]: error: maximum authentication attempts exceeded for invalid user usuario from 115.23.75.168 port 36810 ssh2 [preauth]
+Feb 12 14:26:02 Guest sshd[59056]: Invalid user usuario from 115.23.75.168 port 37456
+Feb 12 14:26:03 Guest sshd[59056]: error: maximum authentication attempts exceeded for invalid user usuario from 115.23.75.168 port 37456 ssh2 [preauth]
+Feb 12 14:26:07 Guest sshd[59058]: Invalid user usuario from 115.23.75.168 port 38064
+Feb 12 14:26:11 Guest sshd[59064]: Invalid user test from 115.23.75.168 port 38508
+Feb 12 14:26:13 Guest sshd[59064]: error: maximum authentication attempts exceeded for invalid user test from 115.23.75.168 port 38508 ssh2 [preauth]
+Feb 12 14:26:17 Guest sshd[59066]: Invalid user test from 115.23.75.168 port 39030
+Feb 12 14:26:18 Guest sshd[59066]: error: maximum authentication attempts exceeded for invalid user test from 115.23.75.168 port 39030 ssh2 [preauth]
+Feb 12 14:26:22 Guest sshd[59068]: Invalid user test from 115.23.75.168 port 39582
+Feb 12 14:26:27 Guest sshd[59070]: Invalid user user from 115.23.75.168 port 40048
+Feb 12 14:26:28 Guest sshd[59070]: error: maximum authentication attempts exceeded for invalid user user from 115.23.75.168 port 40048 ssh2 [preauth]
+Feb 12 14:26:31 Guest sshd[59072]: Invalid user user from 115.23.75.168 port 40560
+Feb 12 14:26:33 Guest sshd[59072]: error: maximum authentication attempts exceeded for invalid user user from 115.23.75.168 port 40560 ssh2 [preauth]
+Feb 12 14:26:37 Guest sshd[59074]: Invalid user user from 115.23.75.168 port 41104
+Feb 12 14:26:42 Guest sshd[59076]: Invalid user ftpuser from 115.23.75.168 port 41676
+Feb 12 14:26:44 Guest sshd[59076]: error: maximum authentication attempts exceeded for invalid user ftpuser from 115.23.75.168 port 41676 ssh2 [preauth]
+Feb 12 14:26:47 Guest sshd[59078]: Invalid user ftpuser from 115.23.75.168 port 42170
+Feb 12 14:26:49 Guest sshd[59078]: error: maximum authentication attempts exceeded for invalid user ftpuser from 115.23.75.168 port 42170 ssh2 [preauth]
+Feb 12 14:26:53 Guest sshd[59080]: Invalid user ftpuser from 115.23.75.168 port 42688
+Feb 12 14:26:59 Guest sshd[59082]: Invalid user test1 from 115.23.75.168 port 43252
+Feb 12 14:27:00 Guest sshd[59082]: error: maximum authentication attempts exceeded for invalid user test1 from 115.23.75.168 port 43252 ssh2 [preauth]
+Feb 12 14:27:05 Guest sshd[59084]: Invalid user test1 from 115.23.75.168 port 43908
+Feb 12 14:27:06 Guest sshd[59084]: error: maximum authentication attempts exceeded for invalid user test1 from 115.23.75.168 port 43908 ssh2 [preauth]
+Feb 12 14:27:11 Guest sshd[59086]: Invalid user test1 from 115.23.75.168 port 44478
+Feb 12 14:27:16 Guest sshd[59088]: Invalid user test2 from 115.23.75.168 port 45000
+Feb 12 14:27:18 Guest sshd[59088]: error: maximum authentication attempts exceeded for invalid user test2 from 115.23.75.168 port 45000 ssh2 [preauth]
+Feb 12 14:27:22 Guest sshd[59090]: Invalid user test2 from 115.23.75.168 port 45594
+Feb 12 14:27:23 Guest sshd[59090]: error: maximum authentication attempts exceeded for invalid user test2 from 115.23.75.168 port 45594 ssh2 [preauth]
+Feb 12 14:27:29 Guest sshd[59092]: Invalid user test2 from 115.23.75.168 port 46190
+Feb 12 14:27:35 Guest sshd[59094]: Invalid user contador from 115.23.75.168 port 46860
+Feb 12 14:27:40 Guest sshd[59096]: Invalid user ubuntu from 115.23.75.168 port 47422
+Feb 12 14:27:42 Guest sshd[59096]: error: maximum authentication attempts exceeded for invalid user ubuntu from 115.23.75.168 port 47422 ssh2 [preauth]
+Feb 12 14:27:47 Guest sshd[59098]: Invalid user ubuntu from 115.23.75.168 port 47992
+Feb 12 14:27:49 Guest sshd[59098]: error: maximum authentication attempts exceeded for invalid user ubuntu from 115.23.75.168 port 47992 ssh2 [preauth]
+Feb 12 14:27:54 Guest sshd[59100]: Invalid user ubuntu from 115.23.75.168 port 48728
+Feb 12 14:27:58 Guest sshd[59102]: Invalid user pi from 115.23.75.168 port 49274
+Feb 12 14:28:03 Guest sshd[59104]: Invalid user baikal from 115.23.75.168 port 49728
+Feb 12 14:48:43 Guest sshd[59130]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 14:52:26 Guest sshd[59137]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 14:52:29 Guest sshd[59138]: Invalid user support from 212.70.149.150 port 62446
+Feb 12 15:00:19 Guest sshd[59147]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 15:00:22 Guest sshd[59148]: Invalid user user from 212.70.149.150 port 63302
+Feb 12 15:08:14 Guest sshd[59160]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 15:08:16 Guest sshd[59161]: Invalid user 1234 from 212.70.149.150 port 62143
+Feb 12 15:15:35 Guest sshd[59169]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 15:15:38 Guest sshd[59170]: Invalid user admin from 212.70.149.150 port 63218
+Feb 12 15:23:04 Guest sshd[59199]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 15:31:22 Guest sshd[59213]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 15:31:24 Guest sshd[59214]: Invalid user admin from 212.70.149.150 port 62468
+Feb 12 15:39:08 Guest sshd[59223]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 15:39:11 Guest sshd[59224]: Invalid user telecomadmin from 212.70.149.150 port 62262
+Feb 12 15:46:31 Guest sshd[59239]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 15:46:35 Guest sshd[59240]: Invalid user test from 212.70.149.150 port 63001
+Feb 12 15:54:18 Guest sshd[59247]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 16:02:20 Guest sshd[59261]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 16:02:23 Guest sshd[59262]: Invalid user ubnt from 212.70.149.150 port 62840
+Feb 12 16:09:54 Guest sshd[59271]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 16:09:55 Guest sshd[59272]: Invalid user admin from 212.70.149.150 port 63300
+Feb 12 16:17:14 Guest sshd[59292]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 16:17:15 Guest sshd[59293]: Invalid user admin from 212.70.149.150 port 62748
+Feb 12 16:24:35 Guest sshd[59309]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 16:27:41 Guest sshd[59318]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 16:31:47 Guest sshd[59323]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 16:31:50 Guest sshd[59324]: Invalid user admin from 212.70.149.150 port 63496
+Feb 12 16:39:14 Guest sshd[59375]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 16:39:17 Guest sshd[59376]: Invalid user guest from 212.70.149.150 port 63260
+Feb 12 16:47:13 Guest sshd[59390]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 16:54:45 Guest sshd[59398]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 16:54:48 Guest sshd[59399]: Invalid user admin from 212.70.149.150 port 63319
+Feb 12 17:02:43 Guest sshd[59412]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 17:10:18 Guest sshd[59421]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 17:10:20 Guest sshd[59422]: Invalid user ubnt from 212.70.149.150 port 62604
+Feb 12 17:18:05 Guest sshd[59441]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 17:26:04 Guest sshd[59460]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 17:26:06 Guest sshd[59461]: Invalid user vpn from 212.70.149.150 port 62279
+Feb 12 17:30:51 Guest sshd[59469]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 17:33:49 Guest sshd[59474]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 17:33:51 Guest sshd[59475]: Invalid user default from 212.70.149.150 port 63102
+Feb 12 17:41:37 Guest sshd[59489]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 17:41:41 Guest sshd[59490]: Invalid user username from 212.70.149.150 port 61759
+Feb 12 17:49:28 Guest sshd[59501]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 17:49:32 Guest sshd[59502]: Invalid user user from 212.70.149.150 port 63162
+Feb 12 17:57:21 Guest sshd[59515]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 17:57:24 Guest sshd[59516]: Invalid user admin from 212.70.149.150 port 63548
+Feb 12 18:05:12 Guest sshd[59523]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 18:05:15 Guest sshd[59524]: Invalid user admin1 from 212.70.149.150 port 63364
+Feb 12 18:13:18 Guest sshd[59537]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 18:13:21 Guest sshd[59538]: Invalid user ubnt from 212.70.149.150 port 63468
+Feb 12 18:15:05 Guest sshd[59541]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 18:21:17 Guest sshd[59559]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 18:21:20 Guest sshd[59560]: Invalid user admin from 212.70.149.150 port 62311
+Feb 12 18:29:10 Guest sshd[59578]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 18:29:13 Guest sshd[59579]: Invalid user admin from 212.70.149.150 port 62507
+Feb 12 18:34:46 Guest sshd[59586]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 18:37:08 Guest sshd[59592]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 18:37:12 Guest sshd[59593]: Invalid user ubnt from 212.70.149.150 port 62855
+Feb 12 18:40:23 Guest sshd[59598]: Invalid user  from 65.49.1.71 port 29877
+Feb 12 18:45:03 Guest sshd[59604]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 18:52:54 Guest sshd[59622]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 18:52:58 Guest sshd[59623]: Invalid user user from 212.70.149.150 port 62952
+Feb 12 19:00:49 Guest sshd[59631]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 19:00:53 Guest sshd[59632]: Invalid user admin from 212.70.149.150 port 63070
+Feb 12 19:08:44 Guest sshd[59647]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 19:08:45 Guest sshd[59645]: error: maximum authentication attempts exceeded for root from 222.108.186.205 port 53960 ssh2 [preauth]
+Feb 12 19:08:47 Guest sshd[59648]: Invalid user ftp from 212.70.149.150 port 61901
+Feb 12 19:16:41 Guest sshd[59709]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 19:16:43 Guest sshd[59710]: Invalid user admin from 212.70.149.150 port 62617
+Feb 12 19:24:29 Guest sshd[59730]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 19:24:32 Guest sshd[59731]: Invalid user squid from 212.70.149.150 port 62316
+Feb 12 19:32:09 Guest sshd[59744]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 19:32:12 Guest sshd[59745]: Invalid user ftpuser from 212.70.149.150 port 62319
+Feb 12 19:40:03 Guest sshd[59755]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 19:40:06 Guest sshd[59756]: Invalid user admin from 212.70.149.150 port 63594
+Feb 12 19:47:46 Guest sshd[59770]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 19:47:49 Guest sshd[59771]: Invalid user  from 212.70.149.150 port 62669
+Feb 12 19:55:08 Guest sshd[59779]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 20:02:53 Guest sshd[59794]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 20:02:56 Guest sshd[59795]: Invalid user user from 212.70.149.150 port 62159
+Feb 12 20:10:41 Guest sshd[59803]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 20:14:14 Guest sshd[59813]: Invalid user mariah from 124.239.150.227 port 59301
+Feb 12 20:18:30 Guest sshd[59826]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 20:18:33 Guest sshd[59827]: Invalid user admin from 212.70.149.150 port 61888
+Feb 12 20:26:23 Guest sshd[59853]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 20:34:16 Guest sshd[59902]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 20:34:19 Guest sshd[59903]: Invalid user admin from 212.70.149.150 port 62728
+Feb 12 20:42:01 Guest sshd[59916]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 20:49:58 Guest sshd[59927]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 20:50:01 Guest sshd[59928]: Invalid user admin from 212.70.149.150 port 62088
+Feb 12 20:57:51 Guest sshd[59940]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 20:57:54 Guest sshd[59941]: Invalid user Sujan from 212.70.149.150 port 62909
+Feb 12 21:05:40 Guest sshd[59951]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 21:05:43 Guest sshd[59952]: Invalid user ubnt from 212.70.149.150 port 61882
+Feb 12 21:13:31 Guest sshd[59968]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 21:13:34 Guest sshd[59969]: Invalid user admin from 212.70.149.150 port 63539
+Feb 12 21:18:39 Guest sshd[59983]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 21:20:00 Guest sshd[59986]: Invalid user pi from 170.64.185.120 port 36914
+Feb 12 21:20:34 Guest sshd[59988]: Invalid user hive from 170.64.185.120 port 37440
+Feb 12 21:21:03 Guest sshd[59990]: Invalid user git from 170.64.185.120 port 38034
+Feb 12 21:21:16 Guest sshd[59996]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 21:21:32 Guest sshd[59999]: Invalid user wang from 170.64.185.120 port 38584
+Feb 12 21:21:58 Guest sshd[60001]: Invalid user nginx from 170.64.185.120 port 39154
+Feb 12 21:22:23 Guest sshd[60003]: Invalid user mongo from 170.64.185.120 port 39714
+Feb 12 21:22:51 Guest sshd[60005]: Invalid user user from 170.64.185.120 port 40274
+Feb 12 21:23:17 Guest sshd[60007]: Invalid user oracle from 170.64.185.120 port 40834
+Feb 12 21:23:45 Guest sshd[60019]: Invalid user gpadmin from 170.64.185.120 port 41394
+Feb 12 21:24:40 Guest sshd[60023]: Invalid user esroot from 170.64.185.120 port 42516
+Feb 12 21:25:09 Guest sshd[60025]: Invalid user gitlab from 170.64.185.120 port 43076
+Feb 12 21:25:34 Guest sshd[60027]: Invalid user apache from 170.64.185.120 port 43636
+Feb 12 21:28:57 Guest sshd[60039]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 21:29:00 Guest sshd[60040]: Invalid user support from 212.70.149.150 port 63619
+Feb 12 21:36:42 Guest sshd[60052]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 21:36:45 Guest sshd[60053]: Invalid user default from 212.70.149.150 port 63299
+Feb 12 21:44:38 Guest sshd[60061]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 21:52:14 Guest sshd[60076]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 21:52:17 Guest sshd[60077]: Invalid user admin from 212.70.149.150 port 62838
+Feb 12 21:59:30 Guest sshd[60086]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 21:59:34 Guest sshd[60087]: Invalid user ftp from 212.70.149.150 port 62126
+Feb 12 22:07:17 Guest sshd[60100]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 22:15:07 Guest sshd[60116]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 22:15:10 Guest sshd[60117]: Invalid user admin from 212.70.149.150 port 62799
+Feb 12 22:22:55 Guest sshd[60136]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 22:22:59 Guest sshd[60137]: Invalid user admin from 212.70.149.150 port 63119
+Feb 12 22:30:54 Guest sshd[60163]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 22:39:00 Guest sshd[60178]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 22:41:34 Guest sshd[60189]: Invalid user ubnt from 211.218.194.133 port 49255
+Feb 12 22:41:36 Guest sshd[60189]: error: maximum authentication attempts exceeded for invalid user ubnt from 211.218.194.133 port 49255 ssh2 [preauth]
+Feb 12 22:47:00 Guest sshd[60201]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 22:47:04 Guest sshd[60202]: Invalid user admin from 212.70.149.150 port 62572
+Feb 12 22:55:08 Guest sshd[60213]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 23:03:09 Guest sshd[60228]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 23:11:03 Guest sshd[60247]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 23:18:56 Guest sshd[60266]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 23:18:59 Guest sshd[60267]: Invalid user admin from 212.70.149.150 port 63470
+Feb 12 23:26:46 Guest sshd[60296]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 23:34:29 Guest sshd[60304]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 23:34:32 Guest sshd[60305]: Invalid user test from 212.70.149.150 port 62042
+Feb 12 23:42:24 Guest sshd[60325]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 23:42:28 Guest sshd[60326]: Invalid user ubnt from 212.70.149.150 port 61895
+Feb 12 23:49:46 Guest sshd[60339]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 23:57:28 Guest sshd[60356]: error: kex_exchange_identification: Connection closed by remote host
+Feb 12 23:57:31 Guest sshd[60357]: Invalid user user from 212.70.149.150 port 63240
+Feb 13 00:05:17 Guest sshd[60375]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 00:05:19 Guest sshd[60376]: Invalid user admin from 212.70.149.150 port 63419
+Feb 13 00:13:10 Guest sshd[60850]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 00:13:13 Guest sshd[60851]: Invalid user admin from 212.70.149.150 port 63290
+Feb 13 00:20:36 Guest sshd[60872]: Invalid user ubnt from 96.88.139.138 port 50495
+Feb 13 00:20:37 Guest sshd[60872]: error: maximum authentication attempts exceeded for invalid user ubnt from 96.88.139.138 port 50495 ssh2 [preauth]
+Feb 13 00:20:58 Guest sshd[60874]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 00:28:54 Guest sshd[60898]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 00:28:57 Guest sshd[60899]: Invalid user admin from 212.70.149.150 port 62357
+Feb 13 00:36:40 Guest sshd[60915]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 00:36:42 Guest sshd[60916]: Invalid user admin from 212.70.149.150 port 62855
+Feb 13 00:44:25 Guest sshd[60927]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 00:44:31 Guest sshd[60930]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 00:44:35 Guest sshd[60931]: Invalid user admin from 212.70.149.150 port 61862
+Feb 13 00:46:07 Guest sshd[60937]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 00:52:31 Guest sshd[60951]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 01:00:06 Guest sshd[60964]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 01:00:25 Guest sshd[60969]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 01:00:27 Guest sshd[60970]: Invalid user test from 212.70.149.150 port 63607
+Feb 13 01:08:12 Guest sshd[60985]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 01:08:15 Guest sshd[60986]: Invalid user tomcat from 212.70.149.150 port 62186
+Feb 13 01:09:37 Guest sshd[60991]: Invalid user user from 211.229.73.221 port 60913
+Feb 13 01:09:40 Guest sshd[60993]: Invalid user Xpon@Olt9417# from 211.229.73.221 port 60949
+Feb 13 01:09:42 Guest sshd[60995]: Invalid user support from 211.229.73.221 port 60992
+Feb 13 01:15:57 Guest sshd[61006]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 01:15:59 Guest sshd[61007]: Invalid user administrator from 212.70.149.150 port 61996
+Feb 13 01:23:22 Guest sshd[61028]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 01:23:24 Guest sshd[61029]: Invalid user admin from 212.70.149.150 port 63079
+Feb 13 01:29:15 Guest sshd[61052]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 01:30:41 Guest sshd[61055]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 01:30:44 Guest sshd[61056]: Invalid user admin from 212.70.149.150 port 62032
+Feb 13 01:34:41 Guest sshd[61066]: Invalid user secret from 143.110.213.57 port 35076
+Feb 13 01:38:33 Guest sshd[61073]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 01:38:36 Guest sshd[61074]: Invalid user r00t from 212.70.149.150 port 63251
+Feb 13 01:40:50 Guest sshd[61079]: Invalid user admin from 143.110.213.57 port 51370
+Feb 13 01:45:52 Guest sshd[61089]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 01:45:54 Guest sshd[61090]: Invalid user admin from 212.70.149.150 port 62084
+Feb 13 01:46:44 Guest sshd[61098]: Invalid user dmuser from 143.110.213.57 port 38038
+Feb 13 01:52:33 Guest sshd[61111]: Invalid user dbuser from 143.110.213.57 port 48314
+Feb 13 01:53:29 Guest sshd[61113]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 01:53:31 Guest sshd[61114]: Invalid user jenkins from 212.70.149.150 port 62150
+Feb 13 01:58:30 Guest sshd[61127]: Invalid user freelpa from 143.110.213.57 port 35588
+Feb 13 02:00:10 Guest sshd[61131]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 02:00:11 Guest sshd[61132]: Invalid user user from 212.70.149.150 port 62714
+Feb 13 02:02:16 Guest sshd[61140]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 02:04:22 Guest sshd[61142]: Invalid user openldap from 143.110.213.57 port 33020
+Feb 13 02:07:27 Guest sshd[61151]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 02:07:29 Guest sshd[61152]: Invalid user guest from 212.70.149.150 port 62012
+Feb 13 02:10:15 Guest sshd[61157]: Invalid user ldap from 143.110.213.57 port 57756
+Feb 13 02:15:27 Guest sshd[61166]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 02:15:30 Guest sshd[61167]: Invalid user hadoop from 212.70.149.150 port 63246
+Feb 13 02:16:08 Guest sshd[61171]: Invalid user voip from 143.110.213.57 port 35242
+Feb 13 02:22:01 Guest sshd[61187]: Invalid user bacula from 143.110.213.57 port 35710
+Feb 13 02:23:43 Guest sshd[61191]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 02:23:50 Guest sshd[61192]: Invalid user Administrator from 212.70.149.150 port 61764
+Feb 13 02:32:58 Guest sshd[61225]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 02:33:00 Guest sshd[61226]: Invalid user admin from 212.70.149.150 port 61971
+Feb 13 02:36:53 Guest sshd[61235]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 02:39:38 Guest sshd[61241]: Invalid user bacula from 143.110.213.57 port 57440
+Feb 13 02:41:14 Guest sshd[61249]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 02:41:16 Guest sshd[61250]: Invalid user oracle from 212.70.149.150 port 63002
+Feb 13 02:45:31 Guest sshd[61253]: Invalid user puppet from 143.110.213.57 port 55866
+Feb 13 02:50:58 Guest sshd[61266]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 02:51:25 Guest sshd[61273]: Invalid user puppet from 143.110.213.57 port 57310
+Feb 13 02:57:23 Guest sshd[61286]: Invalid user test_user from 143.110.213.57 port 43978
+Feb 13 02:58:26 Guest sshd[61290]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 03:03:12 Guest sshd[61301]: Invalid user test_user from 143.110.213.57 port 40138
+Feb 13 03:06:57 Guest sshd[61308]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 03:06:58 Guest sshd[61309]: Invalid user tech from 212.70.149.150 port 63029
+Feb 13 03:09:02 Guest sshd[61314]: Invalid user elk from 143.110.213.57 port 33404
+Feb 13 03:14:51 Guest sshd[61327]: Invalid user elasticsearch from 143.110.213.57 port 44146
+Feb 13 03:14:53 Guest sshd[61329]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 03:14:54 Guest sshd[61330]: Invalid user telnet from 212.70.149.150 port 62840
+Feb 13 03:16:20 Guest sshd[61339]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 03:20:40 Guest sshd[61352]: Invalid user elastic from 143.110.213.57 port 34294
+Feb 13 03:22:23 Guest sshd[61358]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 03:22:27 Guest sshd[61359]: Invalid user admin from 212.70.149.150 port 63097
+Feb 13 03:26:33 Guest sshd[61379]: Invalid user dolphin from 143.110.213.57 port 57202
+Feb 13 03:29:59 Guest sshd[61384]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 03:32:25 Guest sshd[61395]: Invalid user dolphinscheduler from 143.110.213.57 port 54144
+Feb 13 03:38:18 Guest sshd[61405]: Invalid user dolphinscheduler from 143.110.213.57 port 47952
+Feb 13 03:44:10 Guest sshd[61417]: Invalid user dolphinscheduler from 143.110.213.57 port 47766
+Feb 13 03:50:03 Guest sshd[61431]: Invalid user dolphinscheduler from 143.110.213.57 port 60432
+Feb 13 03:56:00 Guest sshd[61440]: Invalid user elastic from 143.110.213.57 port 60390
+Feb 13 04:01:55 Guest sshd[61454]: Invalid user elastic from 143.110.213.57 port 36972
+Feb 13 04:07:47 Guest sshd[61465]: Invalid user elastic from 143.110.213.57 port 55532
+Feb 13 04:13:42 Guest sshd[61473]: Invalid user elastic from 143.110.213.57 port 51852
+Feb 13 04:15:16 Guest sshd[61475]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 04:19:36 Guest sshd[61494]: Invalid user elastic from 143.110.213.57 port 36958
+Feb 13 04:25:28 Guest sshd[61511]: Invalid user elastic from 143.110.213.57 port 49642
+Feb 13 04:31:22 Guest sshd[61527]: Invalid user elastic from 143.110.213.57 port 56652
+Feb 13 04:37:00 Guest sshd[61540]: Invalid user 0 from 185.217.1.246 port 55856
+Feb 13 04:37:13 Guest sshd[61545]: Invalid user elastic from 143.110.213.57 port 59024
+Feb 13 04:37:14 Guest sshd[61544]: error: Bad remote protocol version identification: 'SSH-2.0_CoreLab-1.0'
+Feb 13 04:37:38 Guest sshd[61549]: Invalid user admin from 185.217.1.246 port 19810
+Feb 13 04:38:02 Guest sshd[61551]: Invalid user ubnt from 185.217.1.246 port 36682
+Feb 13 04:38:32 Guest sshd[61556]: Invalid user admin from 185.217.1.246 port 40471
+Feb 13 04:38:33 Guest sshd[61558]: error: Bad remote protocol version identification: 'SSH-2.0_CoreLab-1.0'
+Feb 13 04:38:34 Guest sshd[61559]: Invalid user adm from 185.217.1.246 port 32065
+Feb 13 04:38:47 Guest sshd[61563]: Invalid user admin from 185.217.1.246 port 36938
+Feb 13 04:39:06 Guest sshd[61565]: Invalid user NONE from 185.217.1.246 port 36153
+Feb 13 04:39:22 Guest sshd[61567]: Invalid user user from 185.217.1.246 port 43054
+Feb 13 04:39:36 Guest sshd[61569]: Invalid user ubnt from 185.217.1.246 port 18667
+Feb 13 04:40:00 Guest sshd[61573]: Invalid user 1234 from 185.217.1.246 port 50295
+Feb 13 04:40:18 Guest sshd[61575]: Invalid user admin from 185.217.1.246 port 57625
+Feb 13 04:40:41 Guest sshd[61581]: Invalid user 12345 from 185.217.1.246 port 23350
+Feb 13 04:40:43 Guest sshd[61585]: Invalid user admin from 185.217.1.246 port 27880
+Feb 13 04:40:56 Guest sshd[61587]: Invalid user test from 185.217.1.246 port 30060
+Feb 13 04:40:57 Guest sshd[61589]: Invalid user admin from 185.217.1.246 port 26925
+Feb 13 04:41:17 Guest sshd[61598]: Invalid user admin from 185.217.1.246 port 41425
+Feb 13 04:41:34 Guest sshd[61600]: Invalid user 22 from 185.217.1.246 port 2222
+Feb 13 04:41:39 Guest sshd[61602]: Invalid user ubnt from 185.217.1.246 port 9239
+Feb 13 04:43:04 Guest sshd[61612]: Invalid user elasticsearch from 143.110.213.57 port 46574
+Feb 13 04:48:54 Guest sshd[61624]: Invalid user test_user from 143.110.213.57 port 52314
+Feb 13 04:54:49 Guest sshd[61637]: Invalid user admin from 143.110.213.57 port 55814
+Feb 13 04:57:35 Guest sshd[61646]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 05:00:42 Guest sshd[61653]: Invalid user test_user from 143.110.213.57 port 38182
+Feb 13 05:05:59 Guest sshd[61671]: Invalid user oracle from 61.153.220.165 port 50572
+Feb 13 05:06:26 Guest sshd[61678]: error: type 20 seq 2 [preauth]
+Feb 13 05:06:26 Guest sshd[61678]: error: type 30 seq 3 [preauth]
+Feb 13 05:06:27 Guest sshd[61678]: error: type 20 seq 4 [preauth]
+Feb 13 05:06:27 Guest sshd[61678]: error: type 30 seq 5 [preauth]
+Feb 13 05:06:29 Guest sshd[61678]: error: type 20 seq 6 [preauth]
+Feb 13 05:06:29 Guest sshd[61678]: error: type 30 seq 7 [preauth]
+Feb 13 05:12:12 Guest sshd[61689]: Invalid user oracle from 61.153.220.165 port 57908
+Feb 13 05:12:15 Guest sshd[61691]: Invalid user oracle from 61.153.220.165 port 56204
+Feb 13 05:12:18 Guest sshd[61693]: Invalid user oracle from 61.153.220.165 port 54488
+Feb 13 05:12:21 Guest sshd[61695]: Invalid user oracle from 61.153.220.165 port 53550
+Feb 13 05:12:24 Guest sshd[61697]: Invalid user admin from 61.153.220.165 port 51388
+Feb 13 05:12:25 Guest sshd[61700]: Invalid user zabbix from 143.110.213.57 port 56162
+Feb 13 05:12:27 Guest sshd[61699]: Invalid user admin from 61.153.220.165 port 50068
+Feb 13 05:12:29 Guest sshd[61703]: Invalid user admin from 61.153.220.165 port 48570
+Feb 13 05:12:32 Guest sshd[61705]: Invalid user admin from 61.153.220.165 port 46052
+Feb 13 05:12:34 Guest sshd[61707]: Invalid user admin from 61.153.220.165 port 44638
+Feb 13 05:14:37 Guest sshd[61712]: Invalid user admin from 61.153.220.165 port 49066
+Feb 13 05:18:14 Guest sshd[61732]: error: kex_exchange_identification: read: Connection reset by peer
+Feb 13 05:18:14 Guest sshd[61733]: Invalid user zabbix from 143.110.213.57 port 47256
+Feb 13 05:18:41 Guest sshd[61735]: Invalid user mysql from 61.153.220.165 port 47872
+Feb 13 05:18:44 Guest sshd[61737]: Invalid user mysql from 61.153.220.165 port 45174
+Feb 13 05:18:47 Guest sshd[61740]: Invalid user mysql from 61.153.220.165 port 43408
+Feb 13 05:18:50 Guest sshd[61742]: Invalid user mysql from 61.153.220.165 port 55598
+Feb 13 05:20:53 Guest sshd[61745]: Invalid user mysql from 61.153.220.165 port 40726
+Feb 13 05:20:56 Guest sshd[61747]: Invalid user mysql from 61.153.220.165 port 57220
+Feb 13 05:20:59 Guest sshd[61749]: Invalid user git from 61.153.220.165 port 55542
+Feb 13 05:23:02 Guest sshd[61756]: Invalid user git from 61.153.220.165 port 53922
+Feb 13 05:23:04 Guest sshd[61758]: Invalid user git from 61.153.220.165 port 51986
+Feb 13 05:24:06 Guest sshd[61762]: Invalid user zabbix from 143.110.213.57 port 37414
+Feb 13 05:27:16 Guest sshd[61778]: Invalid user git from 61.153.220.165 port 47058
+Feb 13 05:27:19 Guest sshd[61780]: Invalid user git from 61.153.220.165 port 56248
+Feb 13 05:27:25 Guest sshd[61783]: Invalid user pi from 121.159.163.6 port 35580
+Feb 13 05:27:27 Guest sshd[61783]: error: maximum authentication attempts exceeded for invalid user pi from 121.159.163.6 port 35580 ssh2 [preauth]
+Feb 13 05:29:57 Guest sshd[61786]: Invalid user zabbix from 143.110.213.57 port 48478
+Feb 13 05:35:46 Guest sshd[61801]: Invalid user zabbix from 143.110.213.57 port 33540
+Feb 13 05:41:37 Guest sshd[61814]: Invalid user oracle from 143.110.213.57 port 43224
+Feb 13 05:47:14 Guest sshd[61827]: error: kex_exchange_identification: read: Connection reset by peer
+Feb 13 05:47:29 Guest sshd[61832]: Invalid user Admin from 143.110.213.57 port 50028
+Feb 13 05:53:17 Guest sshd[61845]: Invalid user icingaadmin from 143.110.213.57 port 37058
+Feb 13 05:59:15 Guest sshd[61853]: Invalid user icingaadmin from 143.110.213.57 port 34492
+Feb 13 06:05:03 Guest sshd[61864]: Invalid user icingaadmin from 143.110.213.57 port 59226
+Feb 13 06:07:49 Guest sshd[61873]: error: kex_exchange_identification: Connection closed by remote host
+Feb 13 06:10:52 Guest sshd[61878]: Invalid user icingaadmin from 143.110.213.57 port 44158
+Feb 13 06:16:45 Guest sshd[61894]: Invalid user icingaadmin from 143.110.213.57 port 57398
+Feb 13 06:22:38 Guest sshd[61910]: Invalid user icingaadmin from 143.110.213.57 port 56714
+Feb 13 06:28:31 Guest sshd[61982]: Invalid user icingaadmin from 143.110.213.57 port 39614
+Feb 13 06:34:22 Guest sshd[61997]: Invalid user zmanda from 143.110.213.57 port 44480
+Feb 13 06:40:15 Guest sshd[62006]: Invalid user zmanda from 143.110.213.57 port 45614
