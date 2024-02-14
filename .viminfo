@@ -12,9 +12,11 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1707746662,,"wq"
+|2,0,1707917423,,"wq"
 :q!
-|2,0,1707734809,,"q!"
+|2,0,1707903984,,"q!"
+:Wq
+|2,0,1707812680,,"Wq"
 
 # Search String History (newest to oldest):
 
@@ -27,230 +29,463 @@
 # Registers:
 
 # File marks:
-'0  76  0  ~/error2.txt
-|4,48,76,0,1707746662,"~/error2.txt"
-'1  1  2075  ~/error2.txt
-|4,49,1,2075,1707746408,"~/error2.txt"
-'2  71  0  ~/error2.txt
-|4,50,71,0,1707746408,"~/error2.txt"
-'3  1  0  ~/error
-|4,51,1,0,1707746392,"~/error"
-'4  56  0  ~/error.txt
-|4,52,56,0,1707741476,"~/error.txt"
-'5  72  0  ~/error.txt
-|4,53,72,0,1707740725,"~/error.txt"
-'6  72  0  ~/error.txt
-|4,54,72,0,1707740725,"~/error.txt"
-'7  67  0  ~/permanent.txt
-|4,55,67,0,1707740182,"~/permanent.txt"
-'8  60  0  ~/error.log
-|4,56,60,0,1707739218,"~/error.log"
-'9  59  0  ~/error.txt
-|4,57,59,0,1707738683,"~/error.txt"
+'0  52  5  ~/test.txt
+|4,48,52,5,1707917423,"~/test.txt"
+'1  52  14  ~/test.txt
+|4,49,52,14,1707916910,"~/test.txt"
+'2  52  47  ~/test.txt
+|4,50,52,47,1707916802,"~/test.txt"
+'3  52  47  ~/test.txt
+|4,51,52,47,1707916802,"~/test.txt"
+'4  28  17  ~/monitor.sh
+|4,52,28,17,1707907811,"~/monitor.sh"
+'5  28  17  ~/monitor.sh
+|4,53,28,17,1707907769,"~/monitor.sh"
+'6  18  20  ~/monitor.sh
+|4,54,18,20,1707907509,"~/monitor.sh"
+'7  18  20  ~/monitor.sh
+|4,55,18,20,1707907509,"~/monitor.sh"
+'8  18  20  ~/monitor.sh
+|4,56,18,20,1707907509,"~/monitor.sh"
+'9  18  20  ~/monitor.sh
+|4,57,18,20,1707907509,"~/monitor.sh"
 
 # Jumplist (newest first):
--'  76  0  ~/error2.txt
-|4,39,76,0,1707746662,"~/error2.txt"
--'  1  2075  ~/error2.txt
-|4,39,1,2075,1707746578,"~/error2.txt"
--'  71  0  ~/error2.txt
-|4,39,71,0,1707746408,"~/error2.txt"
--'  1  0  ~/error2.txt
-|4,39,1,0,1707746397,"~/error2.txt"
--'  1  0  ~/error
-|4,39,1,0,1707746392,"~/error"
--'  1  0  ~/error
-|4,39,1,0,1707746392,"~/error"
--'  1  0  ~/error
-|4,39,1,0,1707746392,"~/error"
--'  1  0  ~/error
-|4,39,1,0,1707746392,"~/error"
--'  56  0  ~/error.txt
-|4,39,56,0,1707741476,"~/error.txt"
--'  56  0  ~/error.txt
-|4,39,56,0,1707741476,"~/error.txt"
--'  56  0  ~/error.txt
-|4,39,56,0,1707741476,"~/error.txt"
--'  56  0  ~/error.txt
-|4,39,56,0,1707741476,"~/error.txt"
--'  56  0  ~/error.txt
-|4,39,56,0,1707741476,"~/error.txt"
--'  56  0  ~/error.txt
-|4,39,56,0,1707741476,"~/error.txt"
--'  56  0  ~/error.txt
-|4,39,56,0,1707741476,"~/error.txt"
--'  56  0  ~/error.txt
-|4,39,56,0,1707741476,"~/error.txt"
--'  1  0  ~/error.txt
-|4,39,1,0,1707741468,"~/error.txt"
--'  1  0  ~/error.txt
-|4,39,1,0,1707741468,"~/error.txt"
--'  1  0  ~/error.txt
-|4,39,1,0,1707741468,"~/error.txt"
--'  1  0  ~/error.txt
-|4,39,1,0,1707741468,"~/error.txt"
--'  1  0  ~/error.txt
-|4,39,1,0,1707741468,"~/error.txt"
--'  1  0  ~/error.txt
-|4,39,1,0,1707741468,"~/error.txt"
--'  1  0  ~/error.txt
-|4,39,1,0,1707741468,"~/error.txt"
--'  1  0  ~/error.txt
-|4,39,1,0,1707741468,"~/error.txt"
--'  72  0  ~/error.txt
-|4,39,72,0,1707740725,"~/error.txt"
--'  72  0  ~/error.txt
-|4,39,72,0,1707740725,"~/error.txt"
--'  72  0  ~/error.txt
-|4,39,72,0,1707740725,"~/error.txt"
--'  72  0  ~/error.txt
-|4,39,72,0,1707740725,"~/error.txt"
--'  72  0  ~/error.txt
-|4,39,72,0,1707740725,"~/error.txt"
--'  72  0  ~/error.txt
-|4,39,72,0,1707740725,"~/error.txt"
--'  72  0  ~/error.txt
-|4,39,72,0,1707740725,"~/error.txt"
--'  72  0  ~/error.txt
-|4,39,72,0,1707740725,"~/error.txt"
--'  72  0  ~/error.txt
-|4,39,72,0,1707740725,"~/error.txt"
--'  72  0  ~/error.txt
-|4,39,72,0,1707740725,"~/error.txt"
--'  72  0  ~/error.txt
-|4,39,72,0,1707740725,"~/error.txt"
--'  72  0  ~/error.txt
-|4,39,72,0,1707740725,"~/error.txt"
--'  72  0  ~/error.txt
-|4,39,72,0,1707740725,"~/error.txt"
--'  72  0  ~/error.txt
-|4,39,72,0,1707740725,"~/error.txt"
--'  72  0  ~/error.txt
-|4,39,72,0,1707740725,"~/error.txt"
--'  72  0  ~/error.txt
-|4,39,72,0,1707740725,"~/error.txt"
--'  1  0  ~/error.txt
-|4,39,1,0,1707740717,"~/error.txt"
--'  1  0  ~/error.txt
-|4,39,1,0,1707740717,"~/error.txt"
--'  1  0  ~/error.txt
-|4,39,1,0,1707740717,"~/error.txt"
--'  1  0  ~/error.txt
-|4,39,1,0,1707740717,"~/error.txt"
--'  1  0  ~/error.txt
-|4,39,1,0,1707740717,"~/error.txt"
--'  1  0  ~/error.txt
-|4,39,1,0,1707740717,"~/error.txt"
--'  1  0  ~/error.txt
-|4,39,1,0,1707740717,"~/error.txt"
--'  1  0  ~/error.txt
-|4,39,1,0,1707740717,"~/error.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  67  0  ~/permanent.txt
-|4,39,67,0,1707740182,"~/permanent.txt"
--'  1  0  ~/permanent.txt
-|4,39,1,0,1707740176,"~/permanent.txt"
--'  1  0  ~/permanent.txt
-|4,39,1,0,1707740176,"~/permanent.txt"
--'  1  0  ~/permanent.txt
-|4,39,1,0,1707740176,"~/permanent.txt"
--'  1  0  ~/permanent.txt
-|4,39,1,0,1707740176,"~/permanent.txt"
--'  1  0  ~/permanent.txt
-|4,39,1,0,1707740176,"~/permanent.txt"
--'  1  0  ~/permanent.txt
-|4,39,1,0,1707740176,"~/permanent.txt"
--'  1  0  ~/permanent.txt
-|4,39,1,0,1707740176,"~/permanent.txt"
--'  1  0  ~/permanent.txt
-|4,39,1,0,1707740176,"~/permanent.txt"
--'  1  0  ~/permanent.txt
-|4,39,1,0,1707740176,"~/permanent.txt"
--'  1  0  ~/permanent.txt
-|4,39,1,0,1707740176,"~/permanent.txt"
--'  1  0  ~/permanent.txt
-|4,39,1,0,1707740176,"~/permanent.txt"
--'  1  0  ~/permanent.txt
-|4,39,1,0,1707740176,"~/permanent.txt"
--'  1  0  ~/permanent.txt
-|4,39,1,0,1707740176,"~/permanent.txt"
--'  1  0  ~/permanent.txt
-|4,39,1,0,1707740176,"~/permanent.txt"
--'  1  0  ~/permanent.txt
-|4,39,1,0,1707740176,"~/permanent.txt"
--'  1  0  ~/permanent.txt
-|4,39,1,0,1707740176,"~/permanent.txt"
--'  1  0  ~/permanent.txt
-|4,39,1,0,1707740176,"~/permanent.txt"
--'  1  0  ~/permanent.txt
-|4,39,1,0,1707740176,"~/permanent.txt"
--'  1  0  ~/permanent.txt
-|4,39,1,0,1707740176,"~/permanent.txt"
--'  1  0  ~/permanent.txt
-|4,39,1,0,1707740176,"~/permanent.txt"
+-'  52  5  ~/test.txt
+|4,39,52,5,1707917423,"~/test.txt"
+-'  52  14  ~/test.txt
+|4,39,52,14,1707916910,"~/test.txt"
+-'  52  47  ~/test.txt
+|4,39,52,47,1707916802,"~/test.txt"
+-'  1  0  ~/test.txt
+|4,39,1,0,1707916775,"~/test.txt"
+-'  1  0  ~/test.txt
+|4,39,1,0,1707916775,"~/test.txt"
+-'  1  0  ~/test.txt
+|4,39,1,0,1707916775,"~/test.txt"
+-'  28  17  ~/monitor.sh
+|4,39,28,17,1707907811,"~/monitor.sh"
+-'  28  17  ~/monitor.sh
+|4,39,28,17,1707907811,"~/monitor.sh"
+-'  28  17  ~/monitor.sh
+|4,39,28,17,1707907811,"~/monitor.sh"
+-'  28  17  ~/monitor.sh
+|4,39,28,17,1707907811,"~/monitor.sh"
+-'  28  17  ~/monitor.sh
+|4,39,28,17,1707907811,"~/monitor.sh"
+-'  28  17  ~/monitor.sh
+|4,39,28,17,1707907811,"~/monitor.sh"
+-'  28  17  ~/monitor.sh
+|4,39,28,17,1707907811,"~/monitor.sh"
+-'  28  17  ~/monitor.sh
+|4,39,28,17,1707907811,"~/monitor.sh"
+-'  28  17  ~/monitor.sh
+|4,39,28,17,1707907769,"~/monitor.sh"
+-'  28  17  ~/monitor.sh
+|4,39,28,17,1707907769,"~/monitor.sh"
+-'  28  17  ~/monitor.sh
+|4,39,28,17,1707907769,"~/monitor.sh"
+-'  28  17  ~/monitor.sh
+|4,39,28,17,1707907769,"~/monitor.sh"
+-'  28  17  ~/monitor.sh
+|4,39,28,17,1707907769,"~/monitor.sh"
+-'  28  17  ~/monitor.sh
+|4,39,28,17,1707907769,"~/monitor.sh"
+-'  28  17  ~/monitor.sh
+|4,39,28,17,1707907769,"~/monitor.sh"
+-'  28  17  ~/monitor.sh
+|4,39,28,17,1707907769,"~/monitor.sh"
+-'  18  20  ~/monitor.sh
+|4,39,18,20,1707907759,"~/monitor.sh"
+-'  18  20  ~/monitor.sh
+|4,39,18,20,1707907759,"~/monitor.sh"
+-'  18  20  ~/monitor.sh
+|4,39,18,20,1707907759,"~/monitor.sh"
+-'  18  20  ~/monitor.sh
+|4,39,18,20,1707907759,"~/monitor.sh"
+-'  18  20  ~/monitor.sh
+|4,39,18,20,1707907759,"~/monitor.sh"
+-'  18  20  ~/monitor.sh
+|4,39,18,20,1707907759,"~/monitor.sh"
+-'  18  20  ~/monitor.sh
+|4,39,18,20,1707907759,"~/monitor.sh"
+-'  18  20  ~/monitor.sh
+|4,39,18,20,1707907759,"~/monitor.sh"
+-'  18  20  ~/monitor.sh
+|4,39,18,20,1707907759,"~/monitor.sh"
+-'  18  20  ~/monitor.sh
+|4,39,18,20,1707907759,"~/monitor.sh"
+-'  18  20  ~/monitor.sh
+|4,39,18,20,1707907759,"~/monitor.sh"
+-'  18  20  ~/monitor.sh
+|4,39,18,20,1707907759,"~/monitor.sh"
+-'  18  20  ~/monitor.sh
+|4,39,18,20,1707907759,"~/monitor.sh"
+-'  18  20  ~/monitor.sh
+|4,39,18,20,1707907759,"~/monitor.sh"
+-'  18  20  ~/monitor.sh
+|4,39,18,20,1707907759,"~/monitor.sh"
+-'  18  20  ~/monitor.sh
+|4,39,18,20,1707907759,"~/monitor.sh"
+-'  18  20  ~/monitor.sh
+|4,39,18,20,1707907509,"~/monitor.sh"
+-'  18  20  ~/monitor.sh
+|4,39,18,20,1707907509,"~/monitor.sh"
+-'  18  20  ~/monitor.sh
+|4,39,18,20,1707907509,"~/monitor.sh"
+-'  18  20  ~/monitor.sh
+|4,39,18,20,1707907509,"~/monitor.sh"
+-'  18  20  ~/monitor.sh
+|4,39,18,20,1707907509,"~/monitor.sh"
+-'  18  20  ~/monitor.sh
+|4,39,18,20,1707907509,"~/monitor.sh"
+-'  18  20  ~/monitor.sh
+|4,39,18,20,1707907509,"~/monitor.sh"
+-'  18  20  ~/monitor.sh
+|4,39,18,20,1707907509,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907468,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907468,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907468,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907468,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907468,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907468,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907468,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907468,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907468,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907468,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907468,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907468,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907468,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907468,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907468,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907468,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907468,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907468,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907468,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907468,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907468,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907468,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907468,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907468,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907406,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907406,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907406,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907406,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907406,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907406,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907406,"~/monitor.sh"
+-'  17  5  ~/monitor.sh
+|4,39,17,5,1707907406,"~/monitor.sh"
+-'  59  15  ~/monitor.sh
+|4,39,59,15,1707907372,"~/monitor.sh"
+-'  58  15  ~/monitor.sh
+|4,39,58,15,1707907372,"~/monitor.sh"
+-'  59  15  ~/monitor.sh
+|4,39,59,15,1707907372,"~/monitor.sh"
+-'  58  15  ~/monitor.sh
+|4,39,58,15,1707907372,"~/monitor.sh"
+-'  59  15  ~/monitor.sh
+|4,39,59,15,1707907372,"~/monitor.sh"
+-'  58  15  ~/monitor.sh
+|4,39,58,15,1707907372,"~/monitor.sh"
+-'  59  15  ~/monitor.sh
+|4,39,59,15,1707907372,"~/monitor.sh"
+-'  58  15  ~/monitor.sh
+|4,39,58,15,1707907372,"~/monitor.sh"
+-'  59  15  ~/monitor.sh
+|4,39,59,15,1707907372,"~/monitor.sh"
+-'  58  15  ~/monitor.sh
+|4,39,58,15,1707907372,"~/monitor.sh"
+-'  59  15  ~/monitor.sh
+|4,39,59,15,1707907372,"~/monitor.sh"
+-'  58  15  ~/monitor.sh
+|4,39,58,15,1707907372,"~/monitor.sh"
+-'  59  15  ~/monitor.sh
+|4,39,59,15,1707907372,"~/monitor.sh"
+-'  58  15  ~/monitor.sh
+|4,39,58,15,1707907372,"~/monitor.sh"
+-'  59  15  ~/monitor.sh
+|4,39,59,15,1707907372,"~/monitor.sh"
+-'  58  15  ~/monitor.sh
+|4,39,58,15,1707907372,"~/monitor.sh"
+-'  59  15  ~/monitor.sh
+|4,39,59,15,1707907372,"~/monitor.sh"
+-'  58  15  ~/monitor.sh
+|4,39,58,15,1707907372,"~/monitor.sh"
+-'  59  15  ~/monitor.sh
+|4,39,59,15,1707907372,"~/monitor.sh"
+-'  58  15  ~/monitor.sh
+|4,39,58,15,1707907372,"~/monitor.sh"
+-'  59  15  ~/monitor.sh
+|4,39,59,15,1707907372,"~/monitor.sh"
+-'  58  15  ~/monitor.sh
+|4,39,58,15,1707907372,"~/monitor.sh"
 
 # History of marks within files (newest to oldest):
+
+> ~/test.txt
+	*	1707917421	0
+	"	52	5
+	^	52	6
+	.	16	0
+	+	52	47
+	+	11	25
+	+	23	15
+	+	7	22
+	+	11	25
+	+	16	0
+
+> ~/monitor.sh
+	*	1707907810	0
+	"	28	17
+	^	28	18
+	.	28	17
+	+	59	47
+	+	1	11
+	+	25	47
+	+	1	11
+	+	13	172
+	+	14	0
+	+	13	123
+	+	29	16
+	+	25	22
+	+	54	15
+	+	17	6
+	+	18	20
+	+	28	17
+
+> ~/new.txt
+	*	1707904386	0
+	"	13	123
+	^	13	124
+	.	13	123
+	+	1	566
+	+	1	37
+	+	11	9
+	+	1	324
+	+	3	60
+	+	1	125
+	+	1	861
+	+	1	129
+	+	1	11
+	+	1	1062
+	+	1	1054
+	+	1	53
+	+	1	739
+	+	1	557
+	+	1	11
+	+	1	87
+	+	1	71
+	+	1	298
+	+	1	356
+	+	1	471
+	+	1	17
+	+	1	55
+	+	1	13
+	+	1	0
+	+	20	0
+	+	37	0
+	+	27	48
+	+	3	58
+	+	6	15
+	+	18	3
+	+	20	25
+	+	3	24
+	+	4	31
+	+	47	47
+	+	59	48
+	+	10	51
+	+	25	15
+	+	55	10
+	+	13	123
+
+> ~/cat
+	*	1707903976	0
+	"	1	0
+	^	1	0
+
+> ~/new.sh
+	*	1707898947	0
+	"	47	45
+	^	47	46
+	.	47	47
+	+	47	47
+
+> ~/code.sh
+	*	1707894640	0
+	"	43	15
+	^	43	16
+	.	43	15
+	+	1	1344
+	+	1	165
+	+	1	1124
+	+	48	48
+	+	44	10
+	+	43	15
+
+> ~/hello.txt
+	*	1707894514	0
+	"	48	47
+	^	48	48
+	.	48	47
+	+	57	9
+	+	63	4
+	+	69	48
+	+	48	47
+
+> ~/practice.sh
+	*	1707892536	0
+	"	24	10
+	^	24	11
+	.	24	10
+	+	1	17
+	+	1	230
+	+	1	31
+	+	1	5
+	+	1	57
+	+	1	47
+	+	1	39
+	+	1	47
+	+	1	76
+	+	1	51
+	+	1	46
+	+	1	38
+	+	1	46
+	+	1	22
+	+	1	41
+	+	1	113
+	+	1	115
+	+	1	126
+	+	1	87
+	+	1	122
+	+	1	109
+	+	1	233
+	+	1	141
+	+	1	0
+	+	7	67
+	+	8	100
+	+	10	0
+	+	7	64
+	+	8	58
+	+	12	42
+	+	13	18
+	+	17	11
+	+	16	9
+	+	17	12
+	+	12	29
+	+	16	9
+	+	19	29
+	+	22	104
+	+	20	4
+	+	22	18
+	+	22	75
+	+	23	4
+	+	27	35
+	+	7	60
+	+	24	10
+
+> ~/file.sh
+	*	1707825198	0
+	"	10	2
+	^	10	3
+	.	10	3
+	+	1	12
+	+	10	3
+
+> ~/monitoring_3.txt
+	*	1707820771	0
+	"	48	47
+	^	48	48
+	.	48	47
+	+	48	47
+
+> ~/hamza.txt
+	*	1707818213	0
+	"	23	16
+	^	23	17
+	.	22	17
+	+	57	24
+	+	78	48
+	+	48	48
+	+	22	17
+
+> ~/monitoring_2.txt
+	*	1707817513	0
+	"	28	47
+	^	28	48
+	.	28	47
+	+	28	47
+
+> ~/abc.txt
+	*	1707817349	0
+	"	1	0
+	^	1	0
+	.	78	48
+	+	78	48
+
+> ~/my.txt
+	*	1707817212	0
+	"	79	0
+	^	79	0
+	.	78	48
+	+	53	0
+	+	69	48
+	+	78	48
+
+> ~/latest.txt
+	*	1707812375	0
+	"	16	0
+	^	16	0
+	.	69	48
+	+	55	0
+	+	7	10
+	+	69	48
+
+> ~/n
+	*	1707809461	0
+	"	1	0
+
+> ~/nre.
+	*	1707809368	0
+	"	1	0
+
+> ~/monitoring.txt
+	*	1707808670	0
+	"	10	3
+	^	10	4
+	.	10	3
+	+	10	3
 
 > ~/error2.txt
 	*	1707746659	0
@@ -297,39 +532,6 @@
 	+	49	24
 	+	57	23
 
-> ~/hamza.txt
-	*	1707735369	0
-	"	58	0
-	^	58	0
-	.	57	24
-	+	57	24
-
-> ~/new.txt
-	*	1707734536	0
-	"	62	0
-	^	62	0
-	.	61	60
-	+	59	9
-	+	3	26
-	+	70	9
-	+	48	0
-	+	61	60
-
-> ~/my.txt
-	*	1707734062	0
-	"	54	0
-	^	54	0
-	.	53	0
-	+	53	0
-
-> ~/latest.txt
-	*	1707733819	0
-	"	7	10
-	^	7	11
-	.	7	10
-	+	55	0
-	+	7	10
-
 > ~/log.txt
 	*	1707733185	0
 	"	4	25
@@ -338,14 +540,6 @@
 	+	51	9
 	+	40	60
 	+	4	26
-
-> ~/hello.txt
-	*	1707733026	0
-	"	64	0
-	^	64	0
-	.	63	4
-	+	57	9
-	+	63	4
 
 > ~/file2.txt
 	*	1707732385	0

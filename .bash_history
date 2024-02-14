@@ -569,3 +569,456 @@ git push origin main
 git checkout -b main
 git push origin main
 clear
+ls
+vim hello.txt
+chmod u+x hello.txt 
+./hello.txt 
+vim hamza.txt
+chmod u+x hamza.txt 
+./hamza.txt 
+vim my.txt
+chmod u+x my.txt
+./my.txt
+vim abc.txt
+chmod u+x abc.txt 
+./abc.txt 
+clear
+ls
+rm abc.txt 
+rm hello.txt 
+rm my.txt 
+rm usage_log.txt 
+rm hamza.txt 
+clear
+ls
+./monitoring.txt 
+cat monitoring.txt 
+cat new.txt 
+vim monitoring_2.txt
+chmod u+x monitoring_2.txt 
+./monitoring
+./monitoring_2.txt 
+ls
+cat usage_log.txt 
+clear
+ls
+rm usage_log.txt 
+rm new.txt 
+clear
+ls
+./monitoring_2.txt 
+cat usage_log.txt 
+cat monitoring_2.txt 
+vim hamza.txt
+chmod u+x hamza.txt 
+./hamza.txt 
+ls
+cat usage_log.txt 
+vim hamza.txt 
+./hamza.txt 
+clear
+ls
+./monitoring
+./monitoring.txt 
+./monitoring_2.txt 
+clear
+cat monitoring_2.txt 
+./monitoring_2.txt 
+ls
+cat usage_log.txt 
+clear
+ls
+rm usage_log.txt 
+ls
+clear
+ls
+clear
+cat hamza.txt 
+vim monitoring_3.txt
+chmod u+x monitoring_3.txt 
+./monitoring
+./monitoring_3.txt 
+cat monitoring_3.txt 
+clear
+ls
+rm hamza.txt 
+clear
+ls
+rm usage_log.txt 
+ls
+clear
+ls
+./monitoring_3.txt 
+ls
+cat usage_log.txt 
+clear
+ls
+cat monitoring.txt 
+./monitoring_2.txt 
+cat monitoring_2.txt 
+cat monitoring_3.txt 
+clear
+ls
+cat monitoring_3.txt 
+ls
+./monitoring_3.txt 
+cat usage_log.txt 
+cat monitoring_3.txt 
+./monitoring_3.txt 
+clear
+vim file.sh
+ls
+cat monitoring.txt 
+vim file.sh 
+./file
+./file.sh
+chmod u+x file.sh
+./file.sh
+clear
+ls
+cat file.sh
+cat monitoring_3.txt 
+vim practice.sh
+ls
+./practise.sh
+./practice.sh
+chmod u+x practice.sh 
+./practice.sh
+vim practice.sh 
+ls
+cat info.sh 
+cat practice.sh 
+vim practice.sh 
+./practice.sh 
+cat info.sh 
+cat practice.sh 
+vim practice.sh 
+./practice.sh 
+vim practice.sh 
+./practice.sh 
+cat info.sh 
+vim practice.sh 
+./practice.sh 
+cat info.sh 
+clear
+ls
+rm analyze.log 
+rm anomalies.txt 
+rm blacklist.txt 
+rm error2.txt 
+rm file.
+rm file.txt 
+rm usage_log.txt 
+rm whitelist.txt 
+clear
+ls
+rm error.txt 
+cat file.sh
+rm file.sh 
+rm info.sh 
+clear
+ls
+cat monitoring.txt 
+./monitoring.txt 
+rm monitoring.txt 
+ls
+clear
+cat monitoring_2.txt 
+ls
+touch usage_log.txt
+chmod 777 usage_log.txt 
+./monitoring_
+./monitoring_2.txt 
+ls
+cat usage_log.txt 
+clear
+ls
+rm monitoring_2.txt 
+rm usage_log.txt 
+clear
+ls
+cat practice.sh
+./practice.sh 
+ls
+cat info.sh 
+clear
+ls
+cat monitoring_3.txt 
+ls
+cat practice.sh 
+cat info.sh 
+clear
+ls
+rm info.sh 
+clear
+ls
+touch code.sh
+chmod u+x code.sh
+vim code.sh
+./code.sh 
+ls
+cat usage_log.txt 
+vim code.sh 
+./code.sh 
+vim code.sh 
+./code.sh 
+vim code.sh 
+./code.sh 
+ls
+cat usage_log.txt 
+clear
+ls
+rm monitoring_3.txt 
+rm practice.sh 
+rm usage_log.txt 
+clear
+ls
+cat code .sh
+clear
+cat code.sh
+hello.txt
+touch hello.txt
+chmod u+x hello.txt 
+vim hello.txt 
+./hello.txt 
+cat usage_log.txt 
+clear
+ls
+rm hello.txt 
+rm usage_log.txt 
+clear
+ls
+./code.sh 
+ls
+cat usage_log.txt 
+vim code.sh 
+./code.sh 
+cat usage_log.txt 
+clear
+ls
+df -h
+free -m
+top
+top -bn1
+top -bn1 | grep load | awk '{printf "%.2f", $(NF-2)}'
+clear
+ls
+rm usage_log.txt 
+clear
+ls
+cat code.sh
+free -m
+free -m |awk NR==2
+free -m |awk NR==2{printf $3*100/$2
+free -m |awk NR==2{printf $3*100/$2}
+free -m |awk 'NR==2{printf $3*100/$2}'
+free -m |awk 'NR==2{printf $3*100/$2/n}'
+free -m |awk 'NR==2{printf $3*100/$2}/n'
+free -m |awk 'NR==2{printf $3*100/$2}'/n
+free -m |awk 'NR==2{printf $3*100/$2}'
+free -m |awk 'NR==2{printf "%.2f", $3*100/$2}'
+./code.sh 
+clear
+df -h
+df -h | awk NF"/"
+df -h | awk $NF"/"
+df -h | awk '$NF"/"'
+df -h | awk '$NF=="/"{printf $5}'
+df -h | awk '$NF=="/"{printf $5}'| cut -d '%'
+df -h | awk '$NF=="/"{printf $5}'| cut -d '%' -f1
+df -h | awk '$NF=="/"{printf $5}'| cut -d '%' -f2
+df -h | awk '$NF=="/"{printf $5}'| cut -d '%' -f1
+top
+top -bn
+top -b
+top -bn1
+top -bn1 |grep load
+top -bn1 |grep load | awk '{printf "%.2f", $(NF-2)}'
+top -bn1 |grep load | awk '{printf $(NF-2)}'
+top -bn1 |grep load | awk '{printf ,$(NF-2)}'
+top -bn1 |grep load | awk '{printf $(NF-2)}'
+top -bn1 |grep load | awk '{printf "%.2f", $(NF-2)}'
+clear
+ls
+rm usage_log.txt 
+ls
+clear
+vim new.sh
+ls
+vim new.txt
+chmod u+x new.txt
+./new.txt 
+cat usage_log.txt 
+cat clear
+ls
+rm new.txt 
+rm usage_log.txt 
+clear
+ls
+./code.sh 
+cat usage_log.txt 
+ls
+rm usage_log.txt 
+clear
+ls
+cat code.sh 
+clear
+ls
+vim new.txt
+chmod u+x new.txt 
+./new.txt 
+vin new.txt 
+vim new.txt 
+./new.txt 
+ls
+cat usage_log.txt 
+vim cat
+vim new.txt 
+./new.txt 
+cat usage_log.txt 
+vim new.txt 
+./new.txt 
+cat usage_log.txt 
+cat new.txt 
+clear
+ls
+rm usage_log.txt 
+clear
+cat new.txt
+vim monitor.sh
+./mo
+chmod u+x monitor.sh 
+./monitor.sh 
+ls
+cat usage_log.txt 
+./new.txt 
+clear
+ls
+rm new.txt 
+rm usage_log.txt 
+clear
+ls
+vim monitor.sh 
+./monitor.sh 
+ls
+./monitor.sh 
+clear
+ls
+./code.sh 
+cat code.sh 
+cat usage_log.txt 
+clear
+ls
+chmod u+x monitor.sh 
+./monitor.sh 
+vim monitor.sh 
+./monitor.sh 
+cat usage_log.txt 
+clear
+ls
+rm usage_log.txt 
+ls
+./monitor.sh 
+cat usage_log.txt 
+cat monitor.sh 
+vim monitor.sh 
+ls
+rm usage_log.txt 
+ls
+clear
+./monitor.sh 
+cat monitor.sh 
+sudo apt-get install sendmail
+./monitor.sh 
+clear
+cat monitor.sh 
+vim monitor.sh 
+./monitor.sh 
+ls
+rm usage_log.txt 
+ls
+./monitor.sh 
+vim monitor.sh 
+clear
+ls
+rm usage_log.txt 
+ls
+./monitor.sh 
+ls
+cat usage_log.txt 
+./monitor.sh 
+clear
+ls
+rm us
+rm usage_log.txt 
+vim monitor.sh 
+./monitor.sh 
+ls
+cat usage_log.txt 
+clear
+cat monitor.sh 
+clear
+ls
+rm usage_log.txt 
+./monitor.sh 
+ls
+cat usage_log.txt 
+vim monitor.sh 
+./monitor.sh 
+clear
+ls
+rm usage_log.txt 
+./monitor.sh 
+cat usage_log.txt 
+clear
+ls
+rm usage_log.txt 
+ls
+./monitor.sh 
+./u
+cat usage_log.txt 
+clear
+vim monitor.sh 
+./monitor.sh 
+clear
+ls
+rm usage_log.txt 
+ls
+./monitor.sh 
+cat usage_log.txt 
+clear
+vim monitor.sh 
+./monitor.sh 
+cat usage_log.txt 
+cat monitor.sh 
+clear
+vim monitor.sh 
+./monitor.sh 
+cat u
+cat usage_log.txt 
+./monitor.sh 
+./us
+cat usage_log.txt 
+vim monitor.sh 
+./monitor.sh 
+clear
+./monitor.sh 
+cat usage_log.txt 
+cat monitor.sh 
+vim monitor.sh 
+./monitor.sh 
+./us
+cat usage_log.txt 
+clear
+vim monitor.sh 
+clear
+ls
+rm usage_log.txt 
+ls
+./monitor.sh 
+cat usage_log.txt 
+cat monitor.sh 
+clear
+ls
+monitor.sh
+cat monitor.sh 
