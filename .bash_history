@@ -1022,3 +1022,66 @@ clear
 ls
 monitor.sh
 cat monitor.sh 
+clear
+ls
+rm usage_log.txt 
+ls
+clear
+ls
+./monitor.sh 
+cat usage_log.txt 
+cat monitor.sh 
+clear
+ls
+rm usage_log.txt 
+clear
+vim test.txt
+chmod u+test.txt
+chmod u+x test.txt
+./test.txt 
+cat usage_log.txt 
+vim test.txt 
+./test.txt 
+cat usage_log.txt 
+vim test.txt 
+ls
+rm usage_log.txt 
+ls
+./test.txt 
+cat usage_log.txt 
+clear
+cat test.txt 
+clear
+ls
+rm test.txt 
+rm usage_log.txt 
+clear
+./code.sh 
+cat usage_log.txt 
+clear
+rm usage_log.txt 
+clear
+ls
+./monitor.sh 
+./u
+cat usage_log.txt 
+cat monitor.sh 
+clear
+ls
+cat usage_log.txt 
+clear
+ls
+clear
+git remote -v
+git status
+git add .
+git status
+git commit -m "Bash Script"
+git push origin main
+clear
+ls
+rm usage_log.txt 
+l
+ls
+clear
+ls

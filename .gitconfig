@@ -1,0 +1,2 @@
+[credential]
+	helper = "!f() { sleep 1; echo \"username=hamzakhan1001 token=<hamza>\"; }; f"
